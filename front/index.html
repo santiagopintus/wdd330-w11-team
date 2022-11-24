@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- TITLE -->
+    <title>Team activity W11</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="login-container" id="loginContainer">
+        <h1>Login</h1>
+        <form class="login-form">
+          <div class="form-content">
+            <p class="form-error" id="formError"></p>
+            <div class="field">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username" />
+            </div>
+            <div class="field">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <button class="primary-btn" id="loginBtn">Login</button>
+          </div>
+        </form>
+      </div>
+      <div class="posts-container" id="postsContainer"></div>
+    </main>
+
+    <script src="main.js" type="module"></script>
+    <script src="Auth.js" type="module"></script>
+  </body>
+</html>
